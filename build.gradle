@@ -2,6 +2,7 @@
 
 buildscript {
     repositories {
+        google()
         maven { url "https://jcenter.bintray.com" }
         maven { url "http://repo1.maven.org/maven2" }
     }
@@ -15,6 +16,7 @@ buildscript {
 
 allprojects {
     repositories {
+        google()
         maven { url "https://jitpack.io" }
         maven { url "https://jcenter.bintray.com" }
         maven { url "http://repo1.maven.org/maven2" }
